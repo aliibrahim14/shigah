@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+    head
+        include pug/layouts/meta
+        include pug/layouts/links
+    body
+        section.succesful-message 
+            .container 
+                section.page-header
+                    .logo
+                        img(src="assets/shared/logo.svg", alt="", srcset="")
+                    .go-home 
+                        a(href="") 
+                            span العودة للرئيسية 
+                            i.fas.fa-arrow-right
+                section.page-content
+                    figure
+                        img.w-50(src='assets/congrates/congrates-img.svg' alt='Elephant at sunset')
+                        figcaption 
+                            h3 تم تسجيلكم في المنصة بنجاح
+                            p تم تسجيل حسابك بنجاح , الرجاء الذهاب لبريدك الالكتروني لتفعيل الحساب 
+                            button 
+                                span تفعيل الحساب
+                                i.fas.fa-arrow-right
+        include pug/layouts/scripts

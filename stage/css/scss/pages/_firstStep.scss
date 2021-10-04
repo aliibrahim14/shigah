@@ -1,0 +1,191 @@
+.first-step-page  {
+    .login-intro {
+        min-height: 100vh;
+        background-image: url('../assets/first-step/Bitmap.png');
+        background-color: #7db0b4fa;
+        padding: 20px;
+        .page-header {
+            padding: 2rem 0;
+            display: flex;
+            align-items: center;
+            .go-home {
+                padding-left: 5%;
+                span {
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: -15px;
+                        width: 30px;
+                        height: 4px;
+                        background-color: #fff;
+                    }
+                }
+                a {
+                    font-family: "SSTArabicMedium";
+                    text-decoration: none;
+                    color: #fff;
+                    span {
+                        padding-right: 10px;
+                    }
+                    i {
+                        transition: all .3s;
+                    }
+                    &:hover {
+                        i {
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+        }
+        .content {
+            color: #1A2947;
+            text-align: start;
+            margin-top: 10vh;
+            header {
+                h3 {
+                    font-family: "SSTArabicBold";
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: -25px;
+                        width: 70px;
+                        height: 4px;
+                        background-color: #1A2947;
+                    }
+                }
+            }
+            article {
+                margin-top: 45px;
+                p {
+                    font-family: "SSTArabicMedium";
+                }
+                a {
+                    display: block;
+                    color: #fff;
+                    font-family: "SSTArabicBold";
+                    font-size: 22px;
+                    text-decoration: none;
+                }
+                button {
+                    margin-top: 20px;
+                    height: 50px;
+                    min-width: 179px;
+                    outline: none;
+                    border: 2px solid #1A2947;
+                    background: #1A2947;
+                    font-family: "SSTArabicMedium";
+                    color: #fff;
+                    img {
+                        padding: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+    .form-content {
+        text-align: start;
+        .form-header {
+            ul {
+                font-family: "SSTArabicBold";
+                font-size: 20px;
+                position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: -15px;
+                        width: 69px;
+                        height: 4px;
+                        background-color: #87B7BB;
+                    }
+                li {
+                    &:nth-child(2) {
+                        padding: 0 5px;
+                        color: #CACBD6;
+                    }
+                    &:last-child {
+                        color: #CACBD6;
+                    }
+                }
+            }
+            p {
+                margin-top: 25px;
+                color: #1A2947;
+                font-family: "SSTArabicMedium";
+            }
+        }
+        .form-inputs {
+            .form-group {
+                input, .telphone {
+                    position: relative;
+                    padding-left: 35px;
+                    font-family: "SSTArabicMedium";
+                    border: 2px solid#CACBD6;
+                    border-radius: 0;
+                    height: 55px;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+                ::placeholder {
+                    color: #C0C1CB;
+                    opacity: 1; /* Firefox */
+                }
+                img {
+                    position: absolute;
+                    top: 22px;
+                    left: 12px;
+                }
+            }
+            .intl-tel-input {
+                display: table-cell;
+                width: 100%;
+            }
+            .intl-tel-input .selected-flag {
+                z-index: 4;
+            }
+            .intl-tel-input .country-list {
+                z-index: 5;
+            }
+            .intl-tel-input.allow-dropdown .flag-container {
+                right: 0 !important;
+                left: unset !important;
+            }
+            .action-btns {
+                button {
+                    margin-top: 20px;
+                    height: 50px;
+                    min-width: 179px;
+                    outline: none;
+                    border: 2px solid #1A2947;
+                    background: #fff;
+                    font-family: "SSTArabicMedium";
+                    &[disabled] {
+                        border: 2px solid#CACBD6;
+                        opacity: 0.5;
+                        cursor: not-allowed;
+                        &:hover {
+                            i {
+                                transform: translateX(0px);
+                            }
+                        }
+                    }
+                    i {
+                        padding: 0 5px;
+                        transition: all .3s;
+                    }
+                    &:hover {
+                        i {
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

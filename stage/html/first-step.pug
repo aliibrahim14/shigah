@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+    head
+        include pug/layouts/meta
+        include pug/layouts/links
+    body
+        section.first-step-page 
+            .container 
+                .row.align-items-center
+                    .col-lg-5
+                        .login-intro
+                            section.page-header
+                                .logo
+                                    img(src="assets/shared/logo.svg", alt="", srcset="")
+                                .go-home 
+                                    a(href="") 
+                                        span العودة للرئيسية 
+                                        i.fas.fa-arrow-right
+                            .content 
+                                header
+                                    h3 مرحبا بك عزيزي 👋
+                                        
+                                article 
+                                    p محتوى نصي يستخدم لوصف المحتوي محتوي نصي يستخدم لوصف المحتوي ....
+                                    a(href="") تمتلك حساب عندنا !
+                                    button.hvr-float-shadow 
+                                        img(src="assets/first-step/user.svg", alt="", srcset="")
+                                        span تسجيل الدخول
+                    .col-lg-7
+                        section.form-content 
+                            .form-header 
+                                ul.p-0.m-0.list-unstyled.d-flex.align-items-center.flex-wrap
+                                    li بيانات مفوض المنشأة
+                                    li | 
+                                    li بيانات المنشأة
+                                p محتوى نصي يستخدم لوصف المحتوي محتوي نصي يستخدم لوصف المحتوي ....
+                            .form-inputs.mt-5
+                                form
+                                    .form-row
+                                        .form-group.col-md-6
+                                            input.form-control(type='text' placeholder='الاسم الاول')
+                                            img(src="assets/first-step/user-color.svg", alt="", srcset="")
+                                        .form-group.col-md-6
+                                            input.form-control(type='text' placeholder='الاسم الاخير')
+                                            img(src="assets/first-step/user-color.svg", alt="", srcset="")
+                                        .form-group.col-md-6
+                                            input.form-control(type='email' placeholder='البريد الإلكترونى')
+                                            img(src="assets/first-step/mail.svg", alt="", srcset="")
+                                        .form-group.col-md-6
+                                            input.form-control(type='email' placeholder='تأكيد البريد الإلكترونى')
+                                            img(src="assets/first-step/mail.svg", alt="", srcset="")
+                                        .form-group.col-md-6
+                                            input.form-control(type='password' placeholder='كلمة المرور')
+                                            img(src="assets/first-step/password.svg", alt="", srcset="")
+                                        .form-group.col-md-6
+                                            input.form-control(type='password' placeholder='تأكيد كلمة المرور')
+                                            img(src="assets/first-step/password.svg", alt="", srcset="")
+                                        .form-group.col-md-6
+                                            .input-group
+                                                input.telphone.form-control(type='tel')
+                                                img(src="assets/first-step/phone.svg", alt="", srcset="")
+                                        .form-group.col-md-12
+                                            .action-btns.mt-4
+                                                button.previous(disabled)
+                                                    i.fas.fa-arrow-left
+                                                    span الخطوة السابقة
+                                                button.next
+                                                    span الخطوة التالية
+                                                    i.fas.fa-arrow-right
+        include pug/layouts/scripts

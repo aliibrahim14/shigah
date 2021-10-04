@@ -1,0 +1,75 @@
+.succesful-message {
+    .page-header {
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        .go-home {
+            padding-left: 5%;
+            span {
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -15px;
+                    width: 30px;
+                    height: 4px;
+                    background-color: #87B7BB;
+                }
+            }
+            a {
+                font-family: "SSTArabicMedium";
+                text-decoration: none;
+                color: #1A2947;
+                i {
+                    transition: all .3s;
+                }
+                &:hover {
+                    i {
+                        transform: translateX(5px);
+                    }
+                }
+                span {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .page-content {
+        color: #1A2947;
+        figure {
+            text-align: center;
+            figcaption {
+                margin-top: 25px;
+                h3 {
+                    @media(max-width: 600px) {
+                        font-size: 20px;
+                    }
+                    font-family: "SSTArabicBold";
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-family: "SSTArabicMedium";
+                }
+                button {
+                    margin-top: 20px;
+                    height: 50px;
+                    min-width: 179px;
+                    outline: none;
+                    border: 2px solid #1A2947;
+                    background: #fff;
+                    font-family: "SSTArabicMedium";
+                    i {
+                        padding: 0 5px;
+                        transition: all .3s;
+                    }
+                    &:hover {
+                        i {
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

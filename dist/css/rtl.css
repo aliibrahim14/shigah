@@ -1,0 +1,83 @@
+html {
+    direction: rtl
+}
+
+/* Start Congrates Page  */
+.succesful-message .page-header .go-home {
+    padding-left: 0%;
+    padding-right: 5%;
+}
+
+.succesful-message .page-header .go-home a {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.succesful-message .page-header .go-home a::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    width: 30px;
+    height: 4px;
+    background-color: #87B7BB;
+}
+
+.succesful-message .page-header .go-home span::before {
+    width: 0;
+}
+
+.succesful-message .page-content figure figcaption button {
+    direction: ltr;
+}
+/* End Congrates Page  */
+
+/* Start First Step Page  */
+.first-step-page .login-intro .page-header .go-home a {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.first-step-page .form-content .form-header ul::before,
+.first-step-page .login-intro .content header h3::before {
+    right: 0;
+    left: unset;
+}
+.first-step-page .login-intro .page-header .go-home span::before {
+    right: -12px;
+    left: unset;
+}
+.first-step-page .login-intro .page-header .go-home {
+    padding-left: 0%;
+    padding-right: 5%;
+}
+.first-step-page .form-content .form-inputs .form-group img {
+    position: absolute;
+    top: 22px;
+    left: unset;
+    right: 12px;
+}
+.first-step-page .form-content .form-inputs .form-group input, .first-step-page .form-content .form-inputs .form-group .telphone {
+    padding-left: 0;
+    padding-right: 35px;
+}
+.first-step-page .form-content .form-inputs .intl-tel-input.allow-dropdown .flag-container {
+    left: 0 !important;
+    right: unset !important;
+}
+.intl-tel-input .selected-flag .iti-flag {
+    left: 5px;
+}
+.first-step-page .form-content .form-inputs .action-btns button i {
+    transform: scale(-1, 1);
+}
+.first-step-page .form-content .form-inputs .action-btns button:hover i {
+    -webkit-transform: translateX(5px);
+    transform: translateX(-5px) scale(-1, 1);
+}
+.first-step-page .form-content .form-inputs .action-btns button[disabled]:hover i {
+    transform: translateX(0px) scale(-1 , 1);
+}
+/* End First Step Page  */

@@ -1,0 +1,239 @@
+img {
+  max-width: 100%; }
+
+@font-face {
+  src: url("../fonts/SSTArabicBold.ttf");
+  font-family: "SSTArabicBold"; }
+
+@font-face {
+  src: url("../fonts/SSTArabicMedium.ttf");
+  font-family: "SSTArabicMedium"; }
+
+.succesful-message .page-header {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .succesful-message .page-header .go-home {
+    padding-left: 5%; }
+    .succesful-message .page-header .go-home span {
+      position: relative; }
+      .succesful-message .page-header .go-home span::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -15px;
+        width: 30px;
+        height: 4px;
+        background-color: #87B7BB; }
+    .succesful-message .page-header .go-home a {
+      font-family: "SSTArabicMedium";
+      text-decoration: none;
+      color: #1A2947; }
+      .succesful-message .page-header .go-home a i {
+        -webkit-transition: all .3s;
+        transition: all .3s; }
+      .succesful-message .page-header .go-home a:hover i {
+        -webkit-transform: translateX(5px);
+                transform: translateX(5px); }
+      .succesful-message .page-header .go-home a span {
+        padding-right: 10px; }
+
+.succesful-message .page-content {
+  color: #1A2947; }
+  .succesful-message .page-content figure {
+    text-align: center; }
+    .succesful-message .page-content figure figcaption {
+      margin-top: 25px; }
+      .succesful-message .page-content figure figcaption h3 {
+        font-family: "SSTArabicBold";
+        margin-bottom: 20px; }
+        @media (max-width: 600px) {
+          .succesful-message .page-content figure figcaption h3 {
+            font-size: 20px; } }
+      .succesful-message .page-content figure figcaption p {
+        font-family: "SSTArabicMedium"; }
+      .succesful-message .page-content figure figcaption button {
+        margin-top: 20px;
+        height: 50px;
+        min-width: 179px;
+        outline: none;
+        border: 2px solid #1A2947;
+        background: #fff;
+        font-family: "SSTArabicMedium"; }
+        .succesful-message .page-content figure figcaption button i {
+          padding: 0 5px;
+          -webkit-transition: all .3s;
+          transition: all .3s; }
+        .succesful-message .page-content figure figcaption button:hover i {
+          -webkit-transform: translateX(5px);
+                  transform: translateX(5px); }
+
+.first-step-page .login-intro {
+  min-height: 100vh;
+  background-image: url("../assets/first-step/Bitmap.png");
+  background-color: #7db0b4fa;
+  padding: 20px; }
+  .first-step-page .login-intro .page-header {
+    padding: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .first-step-page .login-intro .page-header .go-home {
+      padding-left: 5%; }
+      .first-step-page .login-intro .page-header .go-home span {
+        position: relative; }
+        .first-step-page .login-intro .page-header .go-home span::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -15px;
+          width: 30px;
+          height: 4px;
+          background-color: #fff; }
+      .first-step-page .login-intro .page-header .go-home a {
+        font-family: "SSTArabicMedium";
+        text-decoration: none;
+        color: #fff; }
+        .first-step-page .login-intro .page-header .go-home a span {
+          padding-right: 10px; }
+        .first-step-page .login-intro .page-header .go-home a i {
+          -webkit-transition: all .3s;
+          transition: all .3s; }
+        .first-step-page .login-intro .page-header .go-home a:hover i {
+          -webkit-transform: translateX(5px);
+                  transform: translateX(5px); }
+  .first-step-page .login-intro .content {
+    color: #1A2947;
+    text-align: start;
+    margin-top: 10vh; }
+    .first-step-page .login-intro .content header h3 {
+      font-family: "SSTArabicBold";
+      position: relative; }
+      .first-step-page .login-intro .content header h3::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -25px;
+        width: 70px;
+        height: 4px;
+        background-color: #1A2947; }
+    .first-step-page .login-intro .content article {
+      margin-top: 45px; }
+      .first-step-page .login-intro .content article p {
+        font-family: "SSTArabicMedium"; }
+      .first-step-page .login-intro .content article a {
+        display: block;
+        color: #fff;
+        font-family: "SSTArabicBold";
+        font-size: 22px;
+        text-decoration: none; }
+      .first-step-page .login-intro .content article button {
+        margin-top: 20px;
+        height: 50px;
+        min-width: 179px;
+        outline: none;
+        border: 2px solid #1A2947;
+        background: #1A2947;
+        font-family: "SSTArabicMedium";
+        color: #fff; }
+        .first-step-page .login-intro .content article button img {
+          padding: 0 5px; }
+
+.first-step-page .form-content {
+  text-align: start; }
+  .first-step-page .form-content .form-header ul {
+    font-family: "SSTArabicBold";
+    font-size: 20px;
+    position: relative; }
+    .first-step-page .form-content .form-header ul::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      width: 69px;
+      height: 4px;
+      background-color: #87B7BB; }
+    .first-step-page .form-content .form-header ul li:nth-child(2) {
+      padding: 0 5px;
+      color: #CACBD6; }
+    .first-step-page .form-content .form-header ul li:last-child {
+      color: #CACBD6; }
+  .first-step-page .form-content .form-header p {
+    margin-top: 25px;
+    color: #1A2947;
+    font-family: "SSTArabicMedium"; }
+  .first-step-page .form-content .form-inputs .form-group input, .first-step-page .form-content .form-inputs .form-group .telphone {
+    position: relative;
+    padding-left: 35px;
+    font-family: "SSTArabicMedium";
+    border: 2px solid #CACBD6;
+    border-radius: 0;
+    height: 55px; }
+    .first-step-page .form-content .form-inputs .form-group input:focus, .first-step-page .form-content .form-inputs .form-group .telphone:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+  .first-step-page .form-content .form-inputs .form-group ::-webkit-input-placeholder {
+    color: #C0C1CB;
+    opacity: 1;
+    /* Firefox */ }
+  .first-step-page .form-content .form-inputs .form-group ::-moz-placeholder {
+    color: #C0C1CB;
+    opacity: 1;
+    /* Firefox */ }
+  .first-step-page .form-content .form-inputs .form-group :-ms-input-placeholder {
+    color: #C0C1CB;
+    opacity: 1;
+    /* Firefox */ }
+  .first-step-page .form-content .form-inputs .form-group ::-ms-input-placeholder {
+    color: #C0C1CB;
+    opacity: 1;
+    /* Firefox */ }
+  .first-step-page .form-content .form-inputs .form-group ::placeholder {
+    color: #C0C1CB;
+    opacity: 1;
+    /* Firefox */ }
+  .first-step-page .form-content .form-inputs .form-group img {
+    position: absolute;
+    top: 22px;
+    left: 12px; }
+  .first-step-page .form-content .form-inputs .intl-tel-input {
+    display: table-cell;
+    width: 100%; }
+  .first-step-page .form-content .form-inputs .intl-tel-input .selected-flag {
+    z-index: 4; }
+  .first-step-page .form-content .form-inputs .intl-tel-input .country-list {
+    z-index: 5; }
+  .first-step-page .form-content .form-inputs .intl-tel-input.allow-dropdown .flag-container {
+    right: 0 !important;
+    left: unset !important; }
+  .first-step-page .form-content .form-inputs .action-btns button {
+    margin-top: 20px;
+    height: 50px;
+    min-width: 179px;
+    outline: none;
+    border: 2px solid #1A2947;
+    background: #fff;
+    font-family: "SSTArabicMedium"; }
+    .first-step-page .form-content .form-inputs .action-btns button[disabled] {
+      border: 2px solid #CACBD6;
+      opacity: 0.5;
+      cursor: not-allowed; }
+      .first-step-page .form-content .form-inputs .action-btns button[disabled]:hover i {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px); }
+    .first-step-page .form-content .form-inputs .action-btns button i {
+      padding: 0 5px;
+      -webkit-transition: all .3s;
+      transition: all .3s; }
+    .first-step-page .form-content .form-inputs .action-btns button:hover i {
+      -webkit-transform: translateX(5px);
+              transform: translateX(5px); }
+
+/*# sourceMappingURL=main.css.map */
